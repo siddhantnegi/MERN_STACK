@@ -1,0 +1,112 @@
+/* .parent{
+    background-color: yellowgreen;
+    color: red;
+    margin: 50px 30px;
+    padding: 100px 50px; */
+    /* width: 120px;
+    box-sizing: border-box;
+    font-size: 4em;
+}
+.parent-child{
+    padding: 30px 20px;
+    background-color: aqua;
+    box-sizing: border-box;
+    font-size: 0.5em;
+}
+.child{
+    background-color: aquamarine;
+    padding: 100px 30px;
+    margin: 150px;
+    box-sizing: content-box;
+    
+}
+.checkalign{
+    text-align: center;
+    background-color: lightcoral;
+    width: 80px;
+    margin: auto;
+    padding: 12px 100px;
+}
+.img{
+    height: 1px;
+    width: 200px;
+    margin: 10px 20px 10px 20px;
+} */
+/* body{
+    padding: 10px 32px;
+    height: 100vh;
+    width: 100vh;
+} */
+.parent1{
+    font-size: 2em;
+    background-color: bisque;
+    /* width: 15em; */
+    /* margin-right: 10px; */
+
+}
+.child1{
+    
+    /* width: 200px; */
+    
+    background-color: bisque;
+    padding: 50px 300px;
+    margin: 0 0 0 200px;
+    
+}
+/* body{
+    height: 100vh;
+    width: 50vh;
+    background: #000;
+}
+.btn{
+    padding: 10px 5px;
+   border: 3px solid yellowgreen;
+   margin: 10px auto;
+   font-size: 16px;
+   width: 120px;
+   margin-top: 10px;
+
+}
+.btn-small{
+    font-size: 19px;
+}
+.btn-big{
+    font-size: 23px;
+} */
+.parent1{
+    ol{
+        background-color: darkcyan;
+    }
+    ul:first-child{
+        background-color: darkorange;
+    }
+    ul:last-child{
+        background-color: darkgrey;
+        li:first-of-type{
+            background-color: blueviolet;
+            width: fit-content;
+        }
+            li:nth-of-type(2){
+            background-color: lightgreen;
+            width: fit-content;
+            
+            }
+            li:nth-of-type(3){
+                background-color: lightpink;
+                width: fit-content;
+                
+                }
+                li:nth-of-type(4){
+                    background-color: lightblue;
+                    width: fit-content;
+                    
+                    }
+        }
+    }
+}
+.parent1+ul{
+    background-color: brown;
+}
+.child1>ul{
+    background-color: blueviolet;
+}
