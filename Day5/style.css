@@ -1,0 +1,18 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    color: blueviolet;
+    text-align: center;
+    background-color: lightskyblue;
+}
+
+.day {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gold;
+    flex-direction: column;
+    height: 250px;
+    width: 100px;
+    border-radius: 7px;
+}
