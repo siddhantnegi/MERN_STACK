@@ -6,6 +6,7 @@ function callAPI(){
 }
 
 function renderUI{
+    //make heading
     const row=document.createElement('tr')
     const cell1=document.createElement('th')
     cell1.innerText='Date';
@@ -18,6 +19,8 @@ function renderUI{
     const cell3=document.createElement('th')
     cell3.innerText='Minimum Temperature'
     row.appendChild(cell3)
+
+    root.appendChild()
 }
 callAPI();
 // SUWENMJDCG3P8Y7E9M4Y22

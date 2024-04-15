@@ -1,0 +1,15 @@
+{
+  "name": "cls",
+  "version": "1.0.0",
+  "description": "workshop starts on 1 April",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"npx kill-port 1400 && nodemon script"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
